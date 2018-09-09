@@ -1,4 +1,21 @@
 
+p:first-of-type {
+    margin-top: 30px;
+    text-transform: uppercase;
+    
+}
+
+.nav-menu:nth-child(2) {
+    background: #E5DAC0
+}
+
+hr {
+    border: none;
+    height: 1px;
+    color: #E5DAC0;
+    background-color: #E5DAC0;
+}
+
 .nav-menu-icon:hover {
     background: #E5DAC0; color: #333; 
 }
@@ -7,21 +24,25 @@
 .nav-menu {
      
     /* left: 200vw; */
+    line-height: 120px;
+    padding: 50px;
+    font-size: 60px;
     position: absolute;
     text-align: center;
+    color: #E5DAC0;
     background: url(images/jeremy-perkins-390608-unsplash.jpg),
      url(images/planet.jpg) no-repeat;
     background-size: contain;
     height: 400px;
     width: 400px;
     /* color: #E5DAC0; */
-    top: -400px;  
-    border-radius: 200px;
-	transition: all .3s ease-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-ms-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
+    top: -500px;  
+    border-radius: 250px;
+	transition: all .7s ease-out;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
 	
 }
 
@@ -40,16 +61,23 @@
     /* height: 40px; */
     border-radius: 50px 50px 50px 50px;
     position: absolute;
-    transition: all .3s ease-in-out;
-	-webkit-transition: all .3s ease-in-out;
-	-moz-transition: all .3s ease-in-out;
-	-ms-transition: all .3s ease-in-out;
-	-o-transition: all .3s ease-in-out;
+    transition: all .7s ease-in-out;
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    transition: line-height .7s;
 }
 
 #menuToggle { display: none; }
-#menuToggle:checked ~ .nav-menu { position: absolute; top: -200px; }
+#menuToggle:checked ~ .nav-menu { top: 50px; }
 
-/* .nav-menu:hover {
-    top: 0;
-} */
+.nav-menu:hover {
+    opacity: 0;
+
+}
+
+div:nth-child(3n) {
+    background: #E5DAC0;
+    border: black;
+}
