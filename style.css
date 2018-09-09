@@ -4,13 +4,19 @@
 }
 
 body {
-    background: #222;
-    height: 570px;
+    overflow: hidden;
+}
+
+.wrapper {
+    
+    height: 600px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(images/space.jpg) no-repeat center;
+    overflow: hidden;
+    position: relative;
 
    
 }

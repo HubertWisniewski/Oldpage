@@ -5,16 +5,17 @@
 
 
 .nav-menu {
-    width: 100%; 
-    left: 330vw;
+     
+    /* left: 200vw; */
+    position: absolute;
     text-align: center;
     background: url(images/jeremy-perkins-390608-unsplash.jpg),
      url(images/planet.jpg) no-repeat;
     background-size: contain;
     height: 400px;
     width: 400px;
-    color: #E5DAC0;
-    /* top: 200vh; */
+    /* color: #E5DAC0; */
+    top: -400px;  
     border-radius: 200px;
 	transition: all .3s ease-out;
 	-webkit-transition: all .3s ease-in-out;
@@ -25,15 +26,16 @@
 }
 
 .nav-menu-icon {
-    color: #F0EADC; 
-    font-size: 25px;
+    /* color: #F0EADC; 
+    font-size: 25px; */
     display: block;
     height: 100px;
     width: 100px;
     /* padding: 10px 20px; */
     background: #333;
-    left: 45vw;
-    bottom: 20px;
+    /* left: 45vw; */
+    /* bottom: 5px; */
+    /* top: 2px; */
 	cursor: pointer;
     /* height: 40px; */
     border-radius: 50px 50px 50px 50px;
@@ -46,8 +48,8 @@
 }
 
 #menuToggle { display: none; }
-#menuToggle:checked ~ .nav-menu { position: fixed; top: 0; }
+#menuToggle:checked ~ .nav-menu { position: absolute; top: -200px; }
 
-.nav-menu:hover {
+/* .nav-menu:hover {
     top: 0;
-}
+} */
