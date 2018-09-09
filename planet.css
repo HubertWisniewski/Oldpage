@@ -3,7 +3,16 @@ p:first-of-type {
     margin-top: 30px;
     text-transform: uppercase;
     
+    
 }
+
+.hidden {
+    font-size: 30px;
+    color: #333;
+
+}
+
+
 
 .nav-menu:nth-child(2) {
     background: #E5DAC0
@@ -30,8 +39,9 @@ hr {
     position: absolute;
     text-align: center;
     color: #E5DAC0;
-    background: url(images/jeremy-perkins-390608-unsplash.jpg),
-     url(images/planet.jpg) no-repeat;
+    
+    background:
+     url(images/jeremy-perkins-390608-unsplash.jpg), url(images/planet.jpg) no-repeat;
     background-size: contain;
     height: 400px;
     width: 400px;
@@ -74,10 +84,14 @@ hr {
 
 .nav-menu:hover {
     opacity: 0;
-
 }
 
-div:nth-child(3n) {
-    background: #E5DAC0;
-    border: black;
-}
+
+
+    div:nth-child(3n) {
+        background: #E5DAC0;
+        border: black;
+        
+    }
+
+   
