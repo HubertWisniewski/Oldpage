@@ -5,11 +5,17 @@
 
 
 .nav-menu {
-    width: 100%; text-align: center;
-    background: url(images/planet.jpg) no-repeat;
+    width: 100%; 
+    left: 330vw;
+    text-align: center;
+    background: url(images/jeremy-perkins-390608-unsplash.jpg),
+     url(images/planet.jpg) no-repeat;
     background-size: contain;
-    height: 300px;
-	top: -49px;
+    height: 400px;
+    width: 400px;
+    color: #E5DAC0;
+    /* top: 200vh; */
+    border-radius: 200px;
 	transition: all .3s ease-out;
 	-webkit-transition: all .3s ease-in-out;
 	-moz-transition: all .3s ease-in-out;
@@ -24,9 +30,10 @@
     display: block;
     height: 100px;
     width: 100px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background: #333;
-    left: 50vw;
+    left: 45vw;
+    bottom: 20px;
 	cursor: pointer;
     /* height: 40px; */
     border-radius: 50px 50px 50px 50px;
