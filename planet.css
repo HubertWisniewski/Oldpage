@@ -55,8 +55,8 @@ hr {
     text-align: center;
     color: #E5DAC0;
     background: 
-     url(images/jeremy-perkins-390608-unsplash.jpg), url(images/planet.jpg) no-repeat;
-    background-size: contain;
+     url(images/jeremy-perkins-390608-unsplash.jpg) no-repeat;
+    background-size: cover;
     height: 400px;
     width: 400px;
     top: -500px;  
