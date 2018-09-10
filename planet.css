@@ -60,12 +60,21 @@ hr {
     position: absolute;
     text-align: center;
     color: red;
-    background: 
-     url(images/jeremy-perkins-390608-unsplash.jpg) no-repeat;
+   background: 
+     url(images/jeremy-perkins-390608-unsplash.jpg) no-repeat; 
+     
+     -webkit-box-shadow: 0 15px 10px red;
+     -moz-box-shadow: 0 15px 10px red;
+     box-shadow: 0 15px 10px red;
+     -webkit-transform: rotate(-3deg);
+     -moz-transform: rotate(-3deg);
+     -o-transform: rotate(-3deg);
+     -ms-transform: rotate(-3deg);
+     transform: rotate(-3deg);
     background-size: cover;
     height: 400px;
     width: 400px;
-    top: -500px;  
+    top: -600px;  
     border-radius: 250px;
 	transition: all .7s ease-out;
 	-webkit-transition: all .7s ease-in-out;
@@ -88,7 +97,7 @@ hr {
 	-moz-transition: all .7s ease-in-out;
 	-ms-transition: all .7s ease-in-out;
     -o-transition: all .7s ease-in-out;
-    transition: line-height .7s;
+    
 }
 
 #menuToggle { display: none; }
