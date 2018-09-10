@@ -6,9 +6,7 @@
     
 }
 
-.name {
-    /* font-family: Arial, Helvetica, sans-serif */
-}
+
 
 a[href^="mailto:"]
 { 
@@ -62,10 +60,12 @@ hr {
     color: red;
    background: 
      url(images/jeremy-perkins-390608-unsplash.jpg) no-repeat; 
-     
-     -webkit-box-shadow: 0 15px 10px red;
+     -webkit-box-shadow: 0px 0px 31px 5px black;
+-moz-box-shadow: 0px 0px 31px 5px black;
+box-shadow: 0px 0px 31px 5px black;
+     /* -webkit-box-shadow: 0 15px 10px red;
      -moz-box-shadow: 0 15px 10px red;
-     box-shadow: 0 15px 10px red;
+     box-shadow: 0 15px 10px red; */
      -webkit-transform: rotate(-3deg);
      -moz-transform: rotate(-3deg);
      -o-transform: rotate(-3deg);
@@ -108,9 +108,9 @@ hr {
     opacity: 0;
 }
 
-    /* div:nth-child(2n) {
-        padding: 30px;
-    } */
+   div:nth-child(2n) {
+        padding: 55px;
+    } 
 
     div:nth-child(3n) {
         background:  #E5DAC0;
