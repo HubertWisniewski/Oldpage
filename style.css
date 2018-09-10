@@ -25,7 +25,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(images/space.jpg) no-repeat center;
+    background: url(images/jeremy-perkins-390608-unsplash.jpg) no-repeat center;
+    background-size: cover;
     overflow: hidden;
     position: relative;
 
