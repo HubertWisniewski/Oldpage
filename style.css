@@ -1,8 +1,18 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
+@font-face {
+    font-family: 'Eighty'; /*a name to be used later*/
+    src: url('images/Paralines-Regular.otf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Moon'; /*a name to be used later*/
+    src: url('images/Moon2.0-Regular.otf'); /*URL to font*/
+}
+
 
 body {
     overflow: hidden;
